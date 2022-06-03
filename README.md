@@ -15,6 +15,8 @@
 ![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(4).png)
 
 
+### Popular Products
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(6).png)
 
 
 ### Newsletter
@@ -22,4 +24,4 @@
 
 
 ### Footer
-![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(6).png)
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(7).png)
