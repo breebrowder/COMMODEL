@@ -17,4 +17,9 @@
 
 
 
-### Homepage Recording
+### Newsletter
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(5).png)
+
+
+### Footer
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(6).png)
