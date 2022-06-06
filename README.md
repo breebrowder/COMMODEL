@@ -25,3 +25,15 @@
 
 ### Footer
 ![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(7).png)
+
+### Product Page
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(8).png)
+
+### Create an Account
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(9).png)
+
+### Sign In
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(10).png)
+
+### Cart
+![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(11).png)
