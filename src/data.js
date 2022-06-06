@@ -1,21 +1,21 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/abstract.png?token=GHSAT0AAAAAABU6VFW4CVS6UJE5PS6Q2M7EYUZQUEQ",
+      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/abstract.png?token=GHSAT0AAAAAABQSA2URTGRIPMKNZSULJKRYYU2C2CQ",
       title: "ABSTRACT",
       desc: "CHECK OUT OUR ABSTRACT MODELS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/crystal.png?token=GHSAT0AAAAAABU6VFW4XIZTNOOJ3MNMRUBQYUZQUSQ",
+      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/crystal.png?token=GHSAT0AAAAAABQSA2URG5RODUHP5VOGXKMAYU2C24Q",
       title: "CRYSTAL",
       desc: "CHECK OUT OUR CRYSTAL MODELS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/motorcycle.png?token=GHSAT0AAAAAABU6VFW4B66UNMOW62MIIG6GYUZQVAA",
+      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/motorcycle.png?token=GHSAT0AAAAAABQSA2UQ5G5VNASGWMPLYJYQYU2C4EA",
       title: "MOTORCYCLE",
       desc: "CHECK OUT OUR MOTORCYCLE MODELS.",
       bg: "fbf0f4",
@@ -26,17 +26,17 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/abstract.png?token=GHSAT0AAAAAABU6VFW4CVS6UJE5PS6Q2M7EYUZQUEQ",
+      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/abstract.png?token=GHSAT0AAAAAABQSA2URTGRIPMKNZSULJKRYYU2C2CQ",
       title: "ABSTRACT",
     },
     {
       id: 2,
-      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/crystal.png?token=GHSAT0AAAAAABU6VFW4XIZTNOOJ3MNMRUBQYUZQUSQ",
+      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/crystal.png?token=GHSAT0AAAAAABQSA2URG5RODUHP5VOGXKMAYU2C24Q",
       title: "CRYSTAL",
     },
     {
       id: 3,
-      img: "",
+      img: "https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/motorcycle.png?token=GHSAT0AAAAAABQSA2UQ5G5VNASGWMPLYJYQYU2C4EA",
       title: "MOTORCYCLE",
     },
   ];
@@ -45,26 +45,26 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/abstract.png?token=GHSAT0AAAAAABQSA2URTGRIPMKNZSULJKRYYU2C2CQ",
     },
     {
       id:2,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/motorcycle.png?token=GHSAT0AAAAAABQSA2UQ5G5VNASGWMPLYJYQYU2C4EA",
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/crystal.png?token=GHSAT0AAAAAABQSA2URG5RODUHP5VOGXKMAYU2C24Q",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/abstract.png?token=GHSAT0AAAAAABQSA2URTGRIPMKNZSULJKRYYU2C2CQ",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/motorcycle.png?token=GHSAT0AAAAAABQSA2UQ5G5VNASGWMPLYJYQYU2C4EA",
     },
     {
       id:6,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://raw.githubusercontent.com/breebrowder/blockchain_front-end/main/src/video/crystal.png?token=GHSAT0AAAAAABQSA2URG5RODUHP5VOGXKMAYU2C24Q",
     },
   ]
