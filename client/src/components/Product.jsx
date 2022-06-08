@@ -65,17 +65,19 @@ import {
     }
   `;
   
-  const Product = ({ item }) => {
+  const Product = ({ item, onShowProduct }) => {
     return (
       <Container>
         <Circle />
-        <Image src={item.img} />
+        <Image src={`http://localhost:5000/img/${item.img}`} />
         <Info>
           <Icon>
             <ShoppingCartOutlined />
           </Icon>
           <Icon>
+            <div onClick={onShowProduct}>
             <SearchOutlined />
+            </div>
           </Icon>
           <Icon>
             <FavoriteBorderOutlined />

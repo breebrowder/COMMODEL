@@ -66,7 +66,7 @@ const MenuItem = styled.div`
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <Container>
       <Wrapper>
@@ -81,9 +81,9 @@ const Navbar = () => {
           <Logo>COMMODEL</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
-          <MenuItem>
+          <MenuItem onClick={props.onRegister}>REGISTER</MenuItem>
+          <MenuItem onClick={props.onSignIn}>SIGN IN</MenuItem>
+          <MenuItem onClick={props.onCart}>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined />
             </Badge>

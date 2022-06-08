@@ -1,5 +1,7 @@
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import styled from 'styled-components';
-import { popularProducts } from '../data';
+// import { popularProducts } from '../data';
 import Product from './Product';
 
 const Container = styled.div`
@@ -8,15 +10,28 @@ const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 `;
+const Products = (props) => {
 
-const Products = () => {
+  const [products, setProducts] = useState([])
+
+  useEffect(() => {
+    axios.get(`http://localhost:5000/api/products`)
+      .then(res => {
+        const products = res.data;
+        setProducts(products);
+        // this.setState({ products });
+        // console.log(products);
+      })
+  }, [])
+
   return (
     <Container>
-      {popularProducts.map((item) => (
-        <Product item={item} key={item.id} />
+      {products.map((item) => (
+        <Product onShowProduct={props.onShowProduct} item={item} key={item._id} />
       ))}
     </Container>
-  );
-};
+    )
+  }
+
 
 export default Products;

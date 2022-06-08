@@ -120,9 +120,12 @@ const Product = () => {
       <Navbar />
       <Announcement />
       <Wrapper>
-        <ImgContainer>
+      <video width="750" height="500" autoPlay muted loop>
+      <source src="http://localhost:5000/video/abstract.mp4" type="video/mp4"/>
+      </video>
+        {/* <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
-        </ImgContainer>
+        </ImgContainer> */}
         <InfoContainer>
           <Title>Denim Jumpsuit</Title>
           <Desc>

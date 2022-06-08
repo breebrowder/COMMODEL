@@ -7,16 +7,15 @@ import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 
-
-const Home = () => {
+const Home = (props) => {
   return (
     <div>
       <Announcement />
-      <Navbar />
+      <Navbar onSignIn={props.onSignIn} onRegister={props.onRegister} onCart={props.onCart}/>
       <Slider />
       <Categories />
-      <Products />
-      <Newsletter/>
+      <Products onShowProduct={props.onShowProduct}/>
+      <Newsletter />
       <Footer />
     </div>
   );
