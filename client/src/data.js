@@ -82,29 +82,30 @@ export const sliderItems = [
     },
   ];
 
-  //export const popularProducts = [
-   // {
-    //  id:1,
-    //  img:"http://localhost:3000/img/abstract.png",
-   // },
-   // {
-    //  id:2,
-    //  img:"http://localhost:3000/img/350x350.gif",
-   // },
-   // {
-    //  id:3,
-    //  img:"http://localhost:3000/img/350x350.gif",
-   // },
-   // {
-   //  id:4,
-    ///  img:"http://localhost:3000/img/350x350.gif",
-    //},
-    //{
-    //  id:5,
-     // img:"http://localhost:3000/img/350x350.gif",
-    //},
-    //{
-     // id:6,
-      //img:"http://localhost:3000/img/350x350.gif",
-    //},
-  //]
+
+  export const popularProducts = [
+    {
+      id:1,
+      img:"http://localhost:3000/img/abstract.png",
+    },
+    {
+      id:2,
+      img:"http://localhost:3000/img/crystal.png",
+    },
+    {
+      id:3,
+      img:"http://localhost:3000/img/motorcycle.png",
+    },
+    {
+      id:4,
+      img:"http://localhost:3000/img/abstract.png",
+    },
+    {
+      id:5,
+      img:"http://localhost:3000/img/crystal.png",
+    },
+    {
+      id:6,
+      img:"http://localhost:3000/img/motorcycle.png",
+    },
+  ]
