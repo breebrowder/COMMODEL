@@ -69,7 +69,7 @@ import {
     return (
       <Container>
         <Circle />
-        <Image src={`http://localhost:5000/img/${item.img}`} />
+        <Image src={`http://localhost:3000/img/${item.img}`} />
         <Info>
           <Icon>
             <ShoppingCartOutlined />

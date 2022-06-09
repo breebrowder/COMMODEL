@@ -42,21 +42,21 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "http://localhost:5000/img/1024x768.gif",
+      img: "http://localhost:3000/img/abstract.png",
       title: "ABSTRACT",
       desc: "CHECK OUT OUR ABSTRACT MODELS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "http://localhost:5000/img/1024x768.gif",
+      img: "http://localhost:3000/img/crystal.png",
       title: "CRYSTAL",
       desc: "CHECK OUT OUR CRYSTAL MODELS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "http://localhost:5000/img/1024x768.gif",
+      img: "http://localhost:3000/img/motorcycle.png",
       title: "MOTORCYCLE",
       desc: "CHECK OUT OUR MOTORCYCLE MODELS.",
       bg: "fbf0f4",
@@ -67,45 +67,44 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "http://localhost:5000/img/300x500.gif",
+      img: "http://localhost:3000/img/abstract.png",
       title: "ABSTRACT",
     },
     {
       id: 2,
-      img: "http://localhost:5000/img/300x500.gif",
+      img: "http://localhost:3000/img/crystal.png",
       title: "CRYSTAL",
     },
     {
       id: 3,
-      img: "http://localhost:5000/img/300x500.gif",
+      img: "http://localhost:3000/img/motorcycle.png",
       title: "MOTORCYCLE",
     },
   ];
 
-
-  export const popularProducts = [
-    {
-      id:1,
-      img:"http://localhost:5000/img/350x350.gif",
-    },
-    {
-      id:2,
-      img:"http://localhost:5000/img/350x350.gif",
-    },
-    {
-      id:3,
-      img:"http://localhost:5000/img/350x350.gif",
-    },
-    {
-      id:4,
-      img:"http://localhost:5000/img/350x350.gif",
-    },
-    {
-      id:5,
-      img:"http://localhost:5000/img/350x350.gif",
-    },
-    {
-      id:6,
-      img:"http://localhost:5000/img/350x350.gif",
-    },
-  ]
+  //export const popularProducts = [
+   // {
+    //  id:1,
+    //  img:"http://localhost:3000/img/abstract.png",
+   // },
+   // {
+    //  id:2,
+    //  img:"http://localhost:3000/img/350x350.gif",
+   // },
+   // {
+    //  id:3,
+    //  img:"http://localhost:3000/img/350x350.gif",
+   // },
+   // {
+   //  id:4,
+    ///  img:"http://localhost:3000/img/350x350.gif",
+    //},
+    //{
+    //  id:5,
+     // img:"http://localhost:3000/img/350x350.gif",
+    //},
+    //{
+     // id:6,
+      //img:"http://localhost:3000/img/350x350.gif",
+    //},
+  //]

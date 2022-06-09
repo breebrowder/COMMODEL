@@ -15,7 +15,7 @@ const Products = (props) => {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/products`)
+    axios.get(`http://localhost:3000/api/products`)
       .then(res => {
         const products = res.data;
         setProducts(products);
