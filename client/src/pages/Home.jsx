@@ -11,10 +11,23 @@ const Home = (props) => {
   return (
     <div>
       <Announcement />
-      <Navbar onSignIn={props.onSignIn} onRegister={props.onRegister} onCart={props.onCart}/>
+      <Navbar
+        onSignIn={props.onSignIn}
+        onRegister={props.onRegister}
+        onCart={props.onCart}
+      />
       <Slider />
-      <Categories />
-      <Products onShowProduct={props.onShowProduct}/>
+      <h1>Product List</h1>
+      {/* <Categories /> */}
+      <Products
+        onShowProduct1={props.onShowProduct1}
+        onShowProduct2={props.onShowProduct2}
+        onShowProduct3={props.onShowProduct3}
+        onShowProduct4={props.onShowProduct4}
+        onShowProduct5={props.onShowProduct5}
+        onShowProduct6={props.onShowProduct6}
+        onShowProductDetail={props.onSHowProductDetail}
+      />
       <Newsletter />
       <Footer />
     </div>

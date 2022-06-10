@@ -3,7 +3,7 @@ import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import React from 'react';
 import styled from 'styled-components';
 import { mobile } from '../responsive';
-
+import { useState } from 'react';
 const Container = styled.div`
   height: 60px;
   ${mobile({ height: "50px" })}
@@ -67,27 +67,43 @@ const MenuItem = styled.div`
 `;
 
 const Navbar = (props) => {
+  const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem('isLoggedIn'));
+  const handleLogin = (e) => {
+    e.preventDefault();
+    //set local storage
+    localStorage.setItem("isLoggedIn", true);
+    // get local storage
+    setIsLoggedIn(true);
+  };
+  const handleLogOut = (e) => {
+    e.preventDefault();
+    //set local storage false
+    localStorage.setItem("isLoggedIn", false);
+    setIsLoggedIn(false);
+  }
   return (
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
+          {/* <Language>EN</Language>
           <SearchContainer>
             <Input placeholder="Search" />
             <Search style={{ color: "gray", fontSize: 16 }} />
-          </SearchContainer>
+          </SearchContainer> */}
         </Left>
         <Center>
           <Logo>COMMODEL</Logo>
         </Center>
         <Right>
-          <MenuItem onClick={props.onRegister}>REGISTER</MenuItem>
-          <MenuItem onClick={props.onSignIn}>SIGN IN</MenuItem>
-          <MenuItem onClick={props.onCart}>
+          {!isLoggedIn && <MenuItem onClick={props.onRegister}>REGISTER</MenuItem>}
+          {!isLoggedIn && <MenuItem onClick={props.onSignIn} onSubmit={handleLogin}>SIGN IN</MenuItem>}
+          {isLoggedIn && <MenuItem >Hello User!</MenuItem>}
+          {isLoggedIn && <MenuItem onClick={handleLogOut}>Log out</MenuItem>}
+          {/* <MenuItem onClick={props.onCart}>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined />
             </Badge>
-          </MenuItem>
+          </MenuItem> */}
         </Right>
       </Wrapper>
     </Container>

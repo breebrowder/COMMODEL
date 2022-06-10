@@ -57,12 +57,12 @@ const Link = styled.a`
   cursor: pointer;
 `;
 
-const Login = () => {
+const Login = (props) => {
   return (
     <Container>
       <Wrapper>
         <Title>SIGN IN</Title>
-        <Form>
+        <Form onSubmit={props.onLogIn}>
           <Input placeholder="Username" />
           <Input placeholder="Password" />
           <Button>LOGIN</Button>

@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Newsletter from '../components/Newsletter';
 import { mobile } from '../responsive';
-
+import { useEffect } from 'react';
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -114,14 +114,17 @@ const Button = styled.button`
   }
 `;
 
-const Product = () => {
+const Product = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Container>
       <Navbar />
       <Announcement />
       <Wrapper>
       <video width="750" height="500" autoPlay muted loop>
-      <source src="http://localhost:3000/video/abstract.mp4" type="video/mp4"/>
+      <source src="http://localhost:3000/video/HolbieCoin.mp4" type="video/mp4"/>
       </video>
         {/* <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
@@ -136,7 +139,7 @@ const Product = () => {
             condimentum ac, volutpat ornare.
           </Desc>
           <Price>$ 20</Price>
-          <FilterContainer>
+          {/* <FilterContainer>
             <Filter>
               <FilterTitle>Color</FilterTitle>
               <FilterColor color="black" />
@@ -153,14 +156,14 @@ const Product = () => {
                 <FilterSizeOption>XL</FilterSizeOption>
               </FilterSize>
             </Filter>
-          </FilterContainer>
+          </FilterContainer> */}
           <AddContainer>
-            <AmountContainer>
+            {/* <AmountContainer>
               <Remove />
               <Amount>1</Amount>
               <Add />
-            </AmountContainer>
-            <Button>ADD TO CART</Button>
+            </AmountContainer> */}
+            <Button>Purchase</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>

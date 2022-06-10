@@ -54,12 +54,12 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const Register = () => {
+const Register = (props) => {
   return (
     <Container>
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
-        <Form>
+        <Form onSubmit={props.onRegister}>
           <Input placeholder="First name" />
           <Input placeholder="Last name" />
           <Input placeholder="Username" />

@@ -4,6 +4,7 @@ import {
   ShoppingCartOutlined,
 } from '@material-ui/icons';
 import styled from 'styled-components';
+import { useEffect } from 'react';
 
 const Info = styled.div`
   opacity: 0;
@@ -65,13 +66,14 @@ const Icon = styled.div`
   }
 `;
 
-const Product = ({ item, onShowProduct }) => {
+const Product = (props) => {
+
   return (
     <Container>
       <Circle />
-      <Image src={`http://localhost:3000/img/${item.img}`} />
-      <Info>
-        <Icon>
+      <Image  src={`http://localhost:3000/img/${props.item.img}`} />
+      <Info onClick={eval(`props.onShowProduct${props.item.number}`)}>
+        {/* <Icon>
           <ShoppingCartOutlined />
         </Icon>
         <Icon>
@@ -81,7 +83,7 @@ const Product = ({ item, onShowProduct }) => {
         </Icon>
         <Icon>
           <FavoriteBorderOutlined />
-        </Icon>
+        </Icon> */}
       </Info>
     </Container>
   );
