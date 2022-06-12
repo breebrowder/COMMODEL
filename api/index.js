@@ -32,16 +32,19 @@ app.use(
         'https://*.mapbox.com',
         'https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js',
         'http://localhost:3000/*',
-        'https://localhost:3000',
+        'http://localhost:3000',
+        'http://54.243.27.61',
         "https://js.stripe.com/",
         'ws://127.0.0.1:*/',
+        'ws://54.243.27.61:*/',
       ],
       scriptSrc: [
         "'self'",
         'https://*.mapbox.com',
         'https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js',
         'http://localhost:3000/*',
-        'https://localhost:3000',
+        'http://localhost:3000',
+        'http://54.243.27.61',
         "'unsafe-inline'",
         "https://js.stripe.com/v3",
         'blob:',
@@ -59,6 +62,6 @@ app.use("/api/orders", orderRoute);
 
 
 
-  app.listen(process.env.PORT || 3000, () => {
+  app.listen(process.env.PORT || 5000, () => {
   console.log("Backend server is running!");
 });
