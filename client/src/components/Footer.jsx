@@ -108,27 +108,18 @@ import {
           </SocialContainer>
         </Left>
         <Center>
-          <Title>Useful Links</Title>
-          <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Products</ListItem>
-            <ListItem>My Account</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Meet the Team</ListItem>
-            <ListItem>Terms</ListItem>
-          </List>
+         
         </Center>
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <Room style={{marginRight:"10px"}}/> Tulsa, Oklahoma 74103
           </ContactItem>
           <ContactItem>
-            <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+            <Phone style={{marginRight:"10px"}}/> + (918) 392-5530
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@commodel.dev
+            <MailOutline style={{marginRight:"10px"}} /> https://holbertontulsa.com
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>

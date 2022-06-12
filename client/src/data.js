@@ -42,70 +42,23 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "http://localhost:3000/img/abstract.png",
-    title: "ABSTRACT",
-    desc: "CHECK OUT OUR ABSTRACT MODELS.",
-    bg: "f5fafd",
+    img: "http://localhost:3000/img/team.JPG",
+    title: "Meet the Team",
+    desc: "Inspired to come together to create an experience for crypto enthusiasts, NFT artists, and AR/XR developers.",
+    bg: "dda0dd",
   },
   {
     id: 2,
-    img: "http://localhost:3000/img/crystal.png",
-    title: "CRYSTAL",
-    desc: "CHECK OUT OUR CRYSTAL MODELS.",
-    bg: "fcf1ed",
+    img: "http://localhost:3000/img/mission.jpeg",
+    title: "Mission Driven",
+    desc: "The COMMODEL Team works to collaboratively break into the crypto industry with NFT 3D/XR models that tell a unique story, while both providing meaning and value for each consumer.",
+    bg: "FF6666",
   },
   {
     id: 3,
-    img: "http://localhost:3000/img/motorcycle.png",
-    title: "MOTORCYCLE",
-    desc: "CHECK OUT OUR MOTORCYCLE MODELS.",
-    bg: "fbf0f4",
+    img: "http://localhost:3000/img/hotDealsLogo.png",
+    title: "New, New, New",
+    desc: "Check back into the application to see new releases and active updates for COMMODEL. ",
+    bg: "ffe135",
   },
 ];
-
-
-export const categories = [
-  {
-    id: 1,
-    img: "http://localhost:3000/img/abstract.png",
-    title: "ABSTRACT",
-  },
-  {
-    id: 2,
-    img: "http://localhost:3000/img/holbie-coin.png",
-    title: "COINS",
-  },
-  {
-    id: 3,
-    img: "http://localhost:3000/img/motorcycle.png",
-    title: "MOTORCYCLE",
-  },
-];
-
-
-export const popularProducts = [
-  {
-    id:1,
-    img:"http://localhost:3000/img/abstract.png",
-  },
-  {
-    id:2,
-    img:"http://localhost:3000/img/crystal.png",
-  },
-  {
-    id:3,
-    img:"http://localhost:3000/img/motorcycle.png",
-  },
-  {
-    id:4,
-    img:"http://localhost:3000/img/glow-cube.png",
-  },
-  {
-    id:5,
-    img:"http://localhost:3000/img/holbie-coin.png",
-  },
-  {
-    id:6,
-    img:"http://localhost:3000/img/motorcycle.png",
-  },
-]

@@ -49,6 +49,13 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
+  background: #4D55CF;
+  background: linear-gradient(to right, #4D55CF 0%, #A3B9FF 26%, #EDE6FF 39%, #FFDEEB 40%, #FFA229 52%, #CF1512 76%, #FFE330 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+  
+
   ${mobile({ fontSize: "24px" })}
 `;
 const Right = styled.div`

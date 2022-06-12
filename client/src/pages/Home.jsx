@@ -1,11 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
 import Announcement from '../components/Announcement';
 import Navbar from '../components/Navbar';
 import Slider from '../components/Slider';
-import Categories from '../components/Categories';
 import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
+
+const Title = styled.h1`
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+`;
 
 const Home = (props) => {
   return (
@@ -17,7 +25,8 @@ const Home = (props) => {
         onCart={props.onCart}
       />
       <Slider />
-      <h1>Product List</h1>
+      &nbsp; &nbsp;
+      <Title><h2><b>Product List</b></h2></Title>
       {/* <Categories /> */}
       <Products
         onShowProduct1={props.onShowProduct1}

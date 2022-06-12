@@ -130,13 +130,11 @@ const Product = (props) => {
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
         </ImgContainer> */}
         <InfoContainer>
-          <Title>ABSTRACT TRI</Title>
+          <Title><h3><b>The future is nothing</b></h3></Title>
           <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-            tristique tortor pretium ut. Curabitur elit justo, consequat id
-            condimentum ac, volutpat ornare.
+            The future may not be what we imagine it to be. Most likely in the future,
+            we will all be shocked about what awaits us. This model represents optimsim
+            and potential. After purchase, you recieve an mp4 file to keep for the long haul.
           </Desc>
           <Price>$ 20</Price>
           {/* <FilterContainer>
