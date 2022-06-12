@@ -4,18 +4,20 @@ import { mobile } from '../responsive';
 
 const Container = styled.div`
   height: 60vh;
-  background-color: #fcf5f5;
+  background-color: #ffc87c;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 `;
 const Title = styled.h1`
+  color: white;
   font-size: 70px;
   margin-bottom: 20px;
 `;
 
 const Desc = styled.div`
+  color: white;
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;

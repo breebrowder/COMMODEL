@@ -33,6 +33,11 @@ const InfoContainer = styled.div`
 
 const Title = styled.h1`
   font-weight: 200;
+  background: #CF260C;
+background: linear-gradient(to right, #CF260C 0%, #FFB41F 20%, #FFFF3D 40%, #00FF00 60%, #3369FF 80%, #9D29CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 `;
 
 const Desc = styled.p`

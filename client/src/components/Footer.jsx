@@ -93,18 +93,26 @@ import {
               please reach out to the development team using the contact information provided.
           </Desc>
           <SocialContainer>
+          <a href="https://www.facebook.com/HolbertonSchoolTulsa/" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="3B5999">
               <Facebook />
             </SocialIcon>
+            </a>
+            <a href="https://www.instagram.com/holbertontul/?hl=en" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="E4405F">
               <Instagram />
             </SocialIcon>
+            </a>
+            <a href="https://twitter.com/holbertontul?lang=en" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="55ACEE">
               <Twitter />
             </SocialIcon>
+            </a>
+            <a href="https://www.pinterest.com/holbertontul/_created/" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="E60023">
               <Pinterest />
             </SocialIcon>
+            </a>
           </SocialContainer>
         </Left>
         <Center>
@@ -119,7 +127,9 @@ import {
             <Phone style={{marginRight:"10px"}}/> + (918) 392-5530
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> https://holbertontulsa.com
+          <a href="https://holbertontulsa.com" target="_blank" rel="noopener noreferrer">
+            <MailOutline style={{marginRight:"10px"}} />holbertontulsa.com
+          </a>
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>
