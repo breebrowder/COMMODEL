@@ -1,4 +1,5 @@
 const Order = require("../models/Order");
+const { getCheckoutSession } = require('../controllers/orderController');
 const {
   verifyToken,
   verifyTokenAndAuthorization,
@@ -6,6 +7,11 @@ const {
 } = require("./verifyToken");
 
 const router = require("express").Router();
+
+router.get(
+  '/checkout-session/:productID',
+  getCheckoutSession
+);
 
 //CREATE
 router.post("/", verifyToken, async (req, res) => {

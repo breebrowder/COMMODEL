@@ -71,7 +71,7 @@ const Product = (props) => {
   return (
     <Container>
       <Circle />
-      <Image  src={`http://54.243.27.61:5000/img/${props.item.img}`} />
+      <Image  src={`http://54.163.61.125:5000/img/${props.item.img}`} />
       <Info onClick={eval(`props.onShowProduct${props.item.number}`)}>
         {/* <Icon>
           <ShoppingCartOutlined />

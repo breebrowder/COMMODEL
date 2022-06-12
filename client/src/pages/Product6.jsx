@@ -1,3 +1,6 @@
+
+import { useState } from "react";
+import { loadStripe } from "@stripe/stripe-js";
 import { Add, Remove } from '@material-ui/icons';
 import styled from 'styled-components';
 import Announcement from '../components/Announcement';
@@ -113,18 +116,49 @@ const Button = styled.button`
       background-color: #f8f4f4;
   }
 `;
+let stripePromise;
 
+const getStripe = () => {
+  if (!stripePromise) {
+    stripePromise = loadStripe("pk_test_51KvXAQEe0nwrWacBy1cYng4LATKAPcWOjLcYxIGFG2DBZWu9uVrFF5N4Ju3uOiFbmAjSMOxbmBISAHvIeYebJJgZ00H0fW8a9L");
+  }
+
+  return stripePromise;
+};
 const Product = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+  const [isLoading, setLoading] = useState(false);
+  const [stripeError, setStripeError] = useState(null);
+  const item = {
+    price: "price_1L9tm0Ee0nwrWacB8o8c3uVW",
+    quantity: 1
+  };
+  const checkoutOptions = {
+    lineItems: [item],
+    mode: "payment",
+    successUrl: `${window.location.origin}/success`,
+    cancelUrl: `${window.location.origin}/cancel`
+  };
+  const redirectToCheckout = async () => {
+    setLoading(true);
+    console.log("redirectToCheckout");
+
+    const stripe = await getStripe();
+    const { error } = await stripe.redirectToCheckout(checkoutOptions);
+    console.log("Stripe checkout error", error);
+
+    if (error) setStripeError(error.message);
+    setLoading(false);
+  };
   return (
     <Container>
       <Navbar />
       <Announcement />
       <Wrapper>
       <video width="750" height="500" autoPlay muted loop>
-      <source src="http://54.243.27.61:5000/video/PrideCoin.mp4" type="video/mp4"/>
+      <source src="http://54.163.61.125:5000/video/PrideCoin.mp4" type="video/mp4"/>
       </video>
         {/* <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
@@ -163,7 +197,7 @@ const Product = (props) => {
               <Amount>1</Amount>
               <Add />
             </AmountContainer> */}
-            <Button>Purchase</Button>
+            <Button onClick={redirectToCheckout}>Purchase</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>

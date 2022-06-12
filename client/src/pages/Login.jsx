@@ -64,7 +64,7 @@ const Login = (props) => {
         <Title>SIGN IN</Title>
         <Form onSubmit={props.onLogIn}>
           <Input placeholder="Username" />
-          <Input placeholder="Password" />
+          <Input type="password" placeholder="Password" />
           <Button>LOGIN</Button>
           <Link>FORGOT PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>

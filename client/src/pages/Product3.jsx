@@ -124,7 +124,7 @@ const Product = (props) => {
       <Announcement />
       <Wrapper>
       <video width="750" height="500" autoPlay muted loop>
-      <source src="http://54.243.27.61:5000/video/GlowingCube.mp4" type="video/mp4"/>
+      <source src="http://54.163.61.125:5000/video/GlowingCube.mp4" type="video/mp4"/>
       </video>
         {/* <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />

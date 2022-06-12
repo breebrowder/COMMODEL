@@ -42,21 +42,21 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "http://54.243.27.61:5000/img/abstract.png",
+    img: "http://54.163.61.125:5000/img/abstract.png",
     title: "ABSTRACT",
     desc: "CHECK OUT OUR ABSTRACT MODELS.",
     bg: "f5fafd",
   },
   {
     id: 2,
-    img: "http://54.243.27.61:5000/img/crystal.png",
+    img: "http://54.163.61.125:5000/img/crystal.png",
     title: "CRYSTAL",
     desc: "CHECK OUT OUR CRYSTAL MODELS.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: "http://54.243.27.61:5000/img/motorcycle.png",
+    img: "http://54.163.61.125:5000/img/motorcycle.png",
     title: "MOTORCYCLE",
     desc: "CHECK OUT OUR MOTORCYCLE MODELS.",
     bg: "fbf0f4",
@@ -67,17 +67,17 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "http://54.243.27.61:5000/img/abstract.png",
+    img: "http://54.163.61.125:5000/img/abstract.png",
     title: "ABSTRACT",
   },
   {
     id: 2,
-    img: "http://54.243.27.61:5000/img/holbie-coin.png",
+    img: "http://54.163.61.125:5000/img/holbie-coin.png",
     title: "COINS",
   },
   {
     id: 3,
-    img: "http://54.243.27.61:5000/img/motorcycle.png",
+    img: "http://54.163.61.125:5000/img/motorcycle.png",
     title: "MOTORCYCLE",
   },
 ];
