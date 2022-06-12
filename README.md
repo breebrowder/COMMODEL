@@ -15,7 +15,7 @@
 ![alt text](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/img(4).png)
 
 ### Sign In
-![alt text](https://github.com/breebrowder/test_react-app/blob/main/img/img(5).png)
+![alt text](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/img(5).png)
 
 ### Create an Account
 ![alt text](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/img(6).png)
