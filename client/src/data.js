@@ -42,17 +42,17 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "http://localhost:3000/img/team.JPG",
-    title: "Meet the Team",
-    desc: "Inspired to come together to create an experience for crypto enthusiasts, NFT artists, and AR/XR developers.",
-    bg: "dda0dd",
-  },
-  {
-    id: 2,
     img: "http://localhost:3000/img/mission.jpeg",
     title: "Mission Driven",
     desc: "The COMMODEL Team works to collaboratively break into the crypto industry with NFT 3D/XR models that tell a unique story, while both providing meaning and value for each consumer.",
     bg: "FF6666",
+  },
+  {
+    id: 2,
+    img: "http://localhost:3000/img/team.JPG",
+    title: "Meet the Team",
+    desc: "Inspired to come together to create an experience for crypto enthusiasts, NFT artists, and AR/XR developers.",
+    bg: "dda0dd",
   },
   {
     id: 3,
