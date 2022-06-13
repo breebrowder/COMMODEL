@@ -93,42 +93,43 @@ import {
               please reach out to the development team using the contact information provided.
           </Desc>
           <SocialContainer>
+          <a href="https://www.facebook.com/HolbertonSchoolTulsa/" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="3B5999">
               <Facebook />
             </SocialIcon>
+            </a>
+            <a href="https://www.instagram.com/holbertontul/?hl=en" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="E4405F">
               <Instagram />
             </SocialIcon>
+            </a>
+            <a href="https://twitter.com/holbertontul?lang=en" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="55ACEE">
               <Twitter />
             </SocialIcon>
+            </a>
+            <a href="https://www.pinterest.com/holbertontul/_created/" target="_blank" rel="noopener noreferrer">
             <SocialIcon color="E60023">
               <Pinterest />
             </SocialIcon>
+            </a>
           </SocialContainer>
         </Left>
         <Center>
-          <Title>Useful Links</Title>
-          <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Products</ListItem>
-            <ListItem>My Account</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Meet the Team</ListItem>
-            <ListItem>Terms</ListItem>
-          </List>
+         
         </Center>
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <Room style={{marginRight:"10px"}}/> Tulsa, Oklahoma 74103
           </ContactItem>
           <ContactItem>
-            <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+            <Phone style={{marginRight:"10px"}}/> + (918) 392-5530
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@commodel.dev
+          <a href="https://holbertontulsa.com" target="_blank" rel="noopener noreferrer">
+            <MailOutline style={{marginRight:"10px"}} />holbertontulsa.com
+          </a>
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>

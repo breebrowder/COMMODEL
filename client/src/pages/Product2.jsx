@@ -130,13 +130,12 @@ const Product = (props) => {
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
         </ImgContainer> */}
         <InfoContainer>
-          <Title>ABSTRACT TRI</Title>
+        <Title><h3><b>Crystalline Magic</b></h3></Title>
           <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-            tristique tortor pretium ut. Curabitur elit justo, consequat id
-            condimentum ac, volutpat ornare.
+            Her story is not yet written, she walks this Earth making history one step at a time.
+            Her song glides in the wind and carries overseas. One day, a man will find her story
+            washed ashore, among sandy rock and the fire in which her tale will be told. After purchase, you
+            recieve an mp4 file to keep for the long haul.
           </Desc>
           <Price>$ 33</Price>
           {/* <FilterContainer>

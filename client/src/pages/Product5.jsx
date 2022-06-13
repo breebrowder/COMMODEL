@@ -158,19 +158,16 @@ const Product = (props) => {
       <Announcement />
       <Wrapper>
       <video width="750" height="500" autoPlay muted loop>
-      <source src="http://54.163.61.125:5000/video/motorcycle.mp4" type="video/mp4"/>
+      <source src="http://localhost:3000/video/Diamond.mp4" type="video/mp4"/>
       </video>
         {/* <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
         </ImgContainer> */}
         <InfoContainer>
-          <Title>ABSTRACT TRI</Title>
+        <Title><h3><b>FLYING COLORS</b></h3></Title>
           <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-            tristique tortor pretium ut. Curabitur elit justo, consequat id
-            condimentum ac, volutpat ornare.
+            Unleash your most creative side with this abstract piece that represents your most vibrant ideas floating on a pedastal, resting in the highest vibrations of yourself. After purchase, you
+            recieve an mp4 file to keep for the long haul.
           </Desc>
           <Price>$ 49</Price>
           {/* <FilterContainer>

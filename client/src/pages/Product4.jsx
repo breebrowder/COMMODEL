@@ -130,13 +130,12 @@ const Product = (props) => {
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
         </ImgContainer> */}
         <InfoContainer>
-          <Title>ABSTRACT TRI</Title>
+        <Title><h3><b>HOLBERTON NFT</b></h3></Title>
           <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-            tristique tortor pretium ut. Curabitur elit justo, consequat id
-            condimentum ac, volutpat ornare.
+            The Holberton experience is representative of effective collaboration, curiosity, 
+            and determination from each of it's students. This special edition coin serves as a reminder 
+            of our values, even long after we have left the school. After purchase, you
+            recieve an mp4 file to keep for the long haul.
           </Desc>
           <Price>$ 20</Price>
           {/* <FilterContainer>
