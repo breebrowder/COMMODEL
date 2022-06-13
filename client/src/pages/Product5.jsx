@@ -132,7 +132,7 @@ const Product = (props) => {
   const [isLoading, setLoading] = useState(false);
   const [stripeError, setStripeError] = useState(null);
   const item = {
-    price: "price_1L9tQjEe0nwrWacB3gq5ZTdE",
+    price: "price_1LALuvEe0nwrWacBkzb7x0Ca",
     quantity: 1
   };
   const checkoutOptions = {
@@ -158,7 +158,7 @@ const Product = (props) => {
       <Announcement />
       <Wrapper>
       <video width="750" height="500" autoPlay muted loop>
-      <source src="http://localhost:3000/video/Diamond.mp4" type="video/mp4"/>
+      <source src="http://54.163.61.125:5000/video/Diamond.mp4" type="video/mp4"/>
       </video>
         {/* <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
@@ -169,7 +169,7 @@ const Product = (props) => {
             Unleash your most creative side with this abstract piece that represents your most vibrant ideas floating on a pedastal, resting in the highest vibrations of yourself. After purchase, you
             recieve an mp4 file to keep for the long haul.
           </Desc>
-          <Price>$ 49</Price>
+          <Price>$ 29</Price>
           {/* <FilterContainer>
             <Filter>
               <FilterTitle>Color</FilterTitle>
