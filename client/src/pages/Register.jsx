@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("http://localhost:3000/img/background.png")
+    url("http://54.163.61.125:5000/img/background.png")
       center;
   background-size: cover;
   display: flex;
