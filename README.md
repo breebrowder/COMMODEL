@@ -17,13 +17,18 @@
 [View Slide Deck Pitch](https://docs.google.com/presentation/d/1qHf8PprFeEAJv9dnbnPzH_ZRyZPB8qNeZUF6UC_e6lY/edit?usp=sharing)
 
 ## Usage
-
-
-
+1. ``` git clone https://github.com/breebrowder/e-comm_app.git ```
+2. Create your own <b>.env></b> file to store in /api directory. (Should contain MongoDB cluster string, JSON Web Token, and Stripe Key).
+3. Open two terminal windows.
+3. Run ``` npm install ``` in both the /api and /client directories to install all dependencies.
+4. In /api directory run command: ``` npm run start ```. If successfull, you should recieve the message below. [DB Connect](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/db_connect.png)
+5. In /client directory run command: ``` npm run start ```. It should launch the application on localhost:3001.
 
 | ⚠️ NOTE: Make sure to have the LTS versions of react, npm, and node  |
 | --- |
 
+#### Preview Demo Here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hk2TsUm4cWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Technical Stack
 - Client
@@ -40,16 +45,13 @@
 ## API
 View all documentation for <b>API</b> [here](https://documenter.getpostman.com/view/19797749/UzBgu9oW).
 
-
 ## Known issues
 In the time given to complete this project, some issues discovered that will be updated in the future are: 
 - Blockchain implementation
 - Responsiveness - The application is currently suitable for desktop versions only
 - Register/login functionality is temporarily disconnected from database, any username/password combination will work
 
-
 ## Resources
-
 1. [React JS Docs](https://reactjs.org/docs/getting-started.html)
 
 2. [Material UI Docs](https://mui.com/material-ui/getting-started/overview/)
