@@ -1,5 +1,5 @@
 {
-  "name": "e-com_api",
+  "name": "COMMODEL",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/breebrowder/e-com_api.git"
+    "url": "git+https://github.com/breebrowder/COMMODEL.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/breebrowder/e-com_api/issues"
+    "url": "https://github.com/breebrowder/COMMODEL/issues"
   },
-  "homepage": "https://github.com/breebrowder/e-com_api#readme",
+  "homepage": "https://github.com/breebrowder/COMMODEL#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "cors": "^2.8.5",

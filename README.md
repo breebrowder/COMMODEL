@@ -1,4 +1,4 @@
-![COMMODEL Logo](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/brand-logo.png)
+![COMMODEL Logo](https://github.com/breebrowder/COMMODEL/blob/main/readme_assets/brand-logo.png)
 # COMMODEL
 - [COMMODEL](#commodel)
   - [Usage](#usage)
@@ -17,13 +17,13 @@
 [View Slide Deck Pitch](https://docs.google.com/presentation/d/1qHf8PprFeEAJv9dnbnPzH_ZRyZPB8qNeZUF6UC_e6lY/edit?usp=sharing)
 
 ## Usage
-1. Run ``` git clone https://github.com/breebrowder/e-comm_app.git ```
+1. Run ``` git clone https://github.com/breebrowder/COMMODEL.git ```
 2. Create your own <b>.env</b> file to store in /api directory. (Should contain MongoDB cluster string, JSON Web Token, and Stripe Key).
 3. Open two terminal windows.
 4. Run ``` npm install ``` in both the <b>/api</b> and <b>/client</b> directories to install all dependencies.
 5. In the <b>/api</b> directory run command: ``` npm run start ```. If successfull, you should recieve the message below.
 
-![DB Connect](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/db_connect.png)
+![DB Connect](https://github.com/breebrowder/COMMODEL/blob/main/readme_assets/db_connect.png)
 
 6. In the <b>/client</b> directory run command: ``` npm run start ```. It should launch the application on localhost:3001.
 
