@@ -17,18 +17,23 @@
 [View Slide Deck Pitch](https://docs.google.com/presentation/d/1qHf8PprFeEAJv9dnbnPzH_ZRyZPB8qNeZUF6UC_e6lY/edit?usp=sharing)
 
 ## Usage
-1. ``` git clone https://github.com/breebrowder/e-comm_app.git ```
-2. Create your own <b>.env></b> file to store in /api directory. (Should contain MongoDB cluster string, JSON Web Token, and Stripe Key).
+1. Run ``` git clone https://github.com/breebrowder/e-comm_app.git ```
+2. Create your own <b>.env</b> file to store in /api directory. (Should contain MongoDB cluster string, JSON Web Token, and Stripe Key).
 3. Open two terminal windows.
-3. Run ``` npm install ``` in both the /api and /client directories to install all dependencies.
-4. In /api directory run command: ``` npm run start ```. If successfull, you should recieve the message below. ![DB Connect](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/db_connect.png)
-5. In /client directory run command: ``` npm run start ```. It should launch the application on localhost:3001.
+4. Run ``` npm install ``` in both the <b>/api</b> and <b>/client</b> directories to install all dependencies.
+5. In the <b>/api</b> directory run command: ``` npm run start ```. If successfull, you should recieve the message below.
+
+![DB Connect](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/db_connect.png)
+
+6. In the <b>/client</b> directory run command: ``` npm run start ```. It should launch the application on localhost:3001.
 
 | ⚠️ NOTE: Make sure to have the LTS versions of react, npm, and node  |
 | --- |
 
-#### Preview Demo Here
-![Youtube](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/thumbnail.png)(https://www.youtube.com/embed/hk2TsUm4cWE)
+### Preview Demo Here
+
+
+[Youtube - Demo COMMODEL](https://www.youtube.com/embed/hk2TsUm4cWE)
 
 
 ## Technical Stack
