@@ -43,7 +43,10 @@ View all documentation for <b>API</b> [here](https://documenter.getpostman.com/v
 
 ## Known issues
 In the time given to complete this project, some issues discovered that will be updated in the future are: 
-- Blockchain
+- Blockchain implementation
+- Responsiveness - The application is currently suitable for desktop versions only
+- Register/login functionality is temporarily disconnected from database, any username/password combination will work
+
 
 ## Resources
 
