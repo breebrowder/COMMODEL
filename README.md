@@ -21,14 +21,15 @@
 2. Create your own <b>.env></b> file to store in /api directory. (Should contain MongoDB cluster string, JSON Web Token, and Stripe Key).
 3. Open two terminal windows.
 3. Run ``` npm install ``` in both the /api and /client directories to install all dependencies.
-4. In /api directory run command: ``` npm run start ```. If successfull, you should recieve the message below. [DB Connect](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/db_connect.png)
+4. In /api directory run command: ``` npm run start ```. If successfull, you should recieve the message below. ![DB Connect](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/db_connect.png)
 5. In /client directory run command: ``` npm run start ```. It should launch the application on localhost:3001.
 
 | ⚠️ NOTE: Make sure to have the LTS versions of react, npm, and node  |
 | --- |
 
 #### Preview Demo Here
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hk2TsUm4cWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Youtube](https://github.com/breebrowder/e-comm_app/blob/main/readme_assets/thumbnail.png)(https://www.youtube.com/embed/hk2TsUm4cWE)
+
 
 ## Technical Stack
 - Client
