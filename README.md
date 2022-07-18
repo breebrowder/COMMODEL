@@ -12,7 +12,7 @@
     - [**Brian Kong**](#brian-kong)
   - [Resources](#resources)
 
-<b>COMMODEL</b> is a full-stack MERN application that serves as an e-commerce platform which specializes in selling unique 3D/XR models to consumers that are tied to a story, while providing meaning and value with each purchase. Visit http://commodel.net to view the application and list of available products to purchase. 
+<b>COMMODEL</b> is a full-stack MERN application that serves as an e-commerce platform which specializes in selling unique 3D/XR models to consumers that are tied to a story, while providing meaning and value with each purchase. Visit http://commodel.net.s3-website-us-east-1.amazonaws.com/ to view the application and list of available products to purchase. 
 
 [View Slide Deck Pitch](https://docs.google.com/presentation/d/1qHf8PprFeEAJv9dnbnPzH_ZRyZPB8qNeZUF6UC_e6lY/edit?usp=sharing)
 
