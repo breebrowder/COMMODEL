@@ -12,7 +12,7 @@
     - [**Brian Kong**](#brian-kong)
   - [Resources](#resources)
 
-<b>COMMODEL</b> is a full-stack MERN application that serves as an e-commerce platform which specializes in selling unique 3D/XR models to consumers that are tied to a story, while providing meaning and value with each purchase. Visit http://commodel.net.s3-website-us-east-1.amazonaws.com/ to view the application and list of available products to purchase. 
+<b>COMMODEL</b> is a full-stack MERN application that serves as an e-commerce platform which specializes in selling unique 3D/XR models to consumers that are tied to a story, while providing meaning and value with each purchase. Visit https://commodel.netlify.app/ to view the application and list of available products to purchase. 
 
 [View Slide Deck Pitch](https://docs.google.com/presentation/d/1qHf8PprFeEAJv9dnbnPzH_ZRyZPB8qNeZUF6UC_e6lY/edit?usp=sharing)
 
@@ -56,6 +56,7 @@ In the time given to complete this project, some issues discovered that will be 
 - Blockchain implementation
 - Responsiveness - The application is currently suitable for desktop versions only
 - Register/login functionality is temporarily disconnected from database, any username/password combination will work
+- Product list stored in the backend of the application is not included in current deployment. Refer to Youtube demo for true website functionality.
 
 ## Resources
 1. [React JS Docs](https://reactjs.org/docs/getting-started.html)
